@@ -1,0 +1,28 @@
+ 
+  @media screen and (max-width:2652px){
+    .carousel-heigh{
+      margin-top: 11vh;
+    }
+  }
+
+  @media screen and (max-width:1000px){
+    .carousel-heigh{
+      margin-top: 0px;
+    }
+  }
+
+  .header{
+    background-color: black;
+  }
+
+  .carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  

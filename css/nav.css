@@ -1,0 +1,105 @@
+/* @media screen and (min-width:300px){
+    .marca {
+        margin-left:5%;
+    }
+    
+    .navbar-nav{
+        margin-right: 5%;
+    }
+} */
+
+/* @media screen and (min-width:300px){
+    .marca {
+        font-family: 'Kavoon', cursive;
+        font-size: 1em;
+    }
+} */
+
+/* @media screen and (max-width:319px){
+    .marca {
+        font-family: 'Kavoon', cursive;
+        font-size: x-large;
+        color: red;
+        margin-left:5%;
+    }
+} */
+
+@media screen and (max-width:2652px){
+	.marca{
+        font-family: 'Kavoon', cursive;
+        font-size: 2rem;
+        margin-left:10%;
+    }
+    .menu-righ{
+        margin-right: 10%;
+    
+    }
+}
+
+@media screen and (max-width:1360px){
+	.marca{
+        font-family: 'Kavoon', cursive;
+        font-size: 1rem;
+        margin-left:5%;
+    }
+    .menu-righ{
+        margin-right: 10%;
+    
+    }
+}
+
+@media screen and (max-width:1990){
+	.marca{
+        font-family: 'Kavoon', cursive;
+        font-size: 2rem;
+        margin-left:10%;
+    }
+    .menu-righ{
+        margin-right: 10%;
+    
+    }
+}
+
+.menu{
+    width:100%;
+    background-color:#01204C;
+    box-shadow: 0px 2px 5px #909090;
+    background-image: url(../imagenes/fondo-azul.jpg);
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .marca {
+    font-family: 'Kavoon', cursive;
+    font-size: 1rem;
+    margin-left:10%;
+} */
+
+nav ul li a:hover{
+    background-color:silver;
+    color:#01204C;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.menu-link {
+    color:silver;
+    display: block;
+    padding: 5px 15px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: .2s;
+    text-decoration: none;
+    margin: 5px 3px;
+}
+
+.activo{
+    /* background-color:white; */
+    border-bottom: solid 1px white;
+    color:white;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+
+
